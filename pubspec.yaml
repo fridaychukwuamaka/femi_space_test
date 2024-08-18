@@ -1,0 +1,51 @@
+name: femi_space
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  #UI
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.2.1
+  iconly: ^1.0.1
+  percent_indicator: ^4.2.3
+
+  #State Management
+  flutter_riverpod: ^2.5.1
+
+  #Navigation
+  go_router: ^14.2.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - google_fonts/
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: google_fonts/Montserrat-Regular.ttf
+          weight: 400
+        - asset: google_fonts/Montserrat-Bold.ttf
+          weight: 700
+        - asset: google_fonts/Montserrat-Medium.ttf
+          weight: 500
+        - asset: google_fonts/Montserrat-SemiBold.ttf
+          weight: 600
+        - asset: google_fonts/Montserrat-ExtraBold.ttf
+          weight: 800
+
+ 
