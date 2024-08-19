@@ -113,7 +113,7 @@ class HomePage extends StatelessWidget {
                           children: [
                             SizedBox(height: 15 + context.appPaddingVal),
                             SemiCircularGauge(
-                              percentage: 15,
+                              percentage: 50,
                               width: context.width * 0.3,
                               color: AppColors.primary,
                             ),
@@ -414,7 +414,7 @@ class HomePage extends StatelessWidget {
               ),
             ),
             const SizedBox(height: 5),
-            const RiskIndicator(value: 3.85),
+            const RiskIndicator(value: 6),
             const SizedBox(height: 10),
             Text.rich(
               TextSpan(
